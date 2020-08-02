@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "CumulativeLearning"
+    }
+  },
+  "defaultProject": "CumulativeLearning",
+  "cli": {
+    "analytics": false
+  }
 }
