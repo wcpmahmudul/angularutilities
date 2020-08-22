@@ -10,6 +10,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { Htmltopdf2Component } from './utilities/htmltopdf2/htmltopdf2.component';
 import { SweetalertComponent } from './utilities/sweetalert/sweetalert.component';
 import { ToastrComponent } from './utilities/toastr/toastr.component';
+import { MenuComponent } from './menu/menu.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ToastrComponent } from './utilities/toastr/toastr.component';
     HomeComponent,
     Htmltopdf2Component,
     SweetalertComponent,
-    ToastrComponent
+    ToastrComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
